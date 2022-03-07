@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#nav{
+    position: fixed;
+    top: 0;
+    width:100%;
+    height: 50px;
+    background: white;
+    z-index: 999;
+
+}
+#nav i{
+    position: absolute;
+    font-size: 40px;
+    left: 0;
+    top: 2px;
+    cursor:pointer;
+}
+#nav p{
+    font-size: 35px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+
+}
+#nav p span{
+    color: rgb(59, 200, 247);
+    letter-spacing: 2px;
+}
+
+.open{
+    left: 0;
+}
+aside {
+    width: 30%;
+    height: 300vh;
+    background: rgba(44, 42, 42, 0.658);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: -30%;
+    transition: 2s;
+}
+aside span i{
+   color: white;
+   font-size:40px;
+   position: absolute;
+   right: 0;
+}
+aside span i:hover{
+    background: whitesmoke;
+    border-radius: 50%;
+    color: black;
+}
+aside div{
+    width: 100%; 
+    margin-top: 50px;
+    padding: 30px 30px 0px;
+    text-align: center;
+    cursor:pointer;
+
+}
+aside div a{
+    color: white;
+}
+aside div:hover{
+    background: black;
+}
+a{
+    color: black;
+}
+
+    .float{
+        position:absolute;
+        width:60px;
+        height:60px;
+   left: 130px;
+   bottom: 2px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }  
+    .float:hover{
+        background-color: #FFF;
+    }  
+    .floa{
+        position:absolute;
+        width:60px;
+        height:60px;
+   left: 210px;
+   bottom: 2px;
+        background-color:red;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+    }
+    
+    .mfloa{
+        font-size: 25px;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+    }  
+    .floa:hover{
+        background-color: #FFF;
+    }  
+    .a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 18px;
+        margin-top: 50px;
+        font-size: 23px;
+        
+    }
+    .a:hover{
+        color: lightblue;
+    }
+
+.am .ma #img1{
+transition: 0.3;
+}
+.am .ma #img1:hover{
+ filter: grayscale(100%);
+ 
+}
+.am .ma #img2{
+    transition: 0.3;
+    }
+ .am .ma #img2:hover{
+     filter: grayscale(100%);
+    }
+    .am .ma #img3{
+        transition: 0.3;
+        }
+        .am .ma #img3:hover{
+         filter: grayscale(100%);
+        }
+.am .ma #img4{
+     transition: 0.3;
+    }
+.am .ma #img4:hover{
+   filter: grayscale(100%);
+ }
+ .am .ma #img2{
+    transition: 0.3;
+    }
+    .am .ma #img2:hover{
+     filter: grayscale(100%);
+    }
